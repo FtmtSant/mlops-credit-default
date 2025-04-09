@@ -8,7 +8,7 @@ import time
 mlflow_process = subprocess.Popen(["mlflow", "ui"])
 time.sleep(2)
 
-# Data initialization
+# Data initialisation
 X_train_balanced, X_test, y_train_balanced, y_test = data_preped()
 
 # RandomForest Model
