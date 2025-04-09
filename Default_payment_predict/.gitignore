@@ -1,0 +1,26 @@
+Loan_Data.csv
+venv/
+mlruns
+catboost_info
+.env
+mlartifacts
+
+# Données sensibles ou volumineuses
+Loan_Data.csv
+data/data_preped.csv
+
+# Environnements virtuels
+venv/
+
+# Dossiers générés par MLflow
+mlruns/
+mlartifacts/
+
+# Infos liées aux modèles externes
+catboost_info/
+
+# Fichiers temporaires / système
+__pycache__/
+.env
+*.pyc
+.DS_Store
